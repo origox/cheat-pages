@@ -9,10 +9,10 @@
 
 ### Commands
 
-Remove all stopped containers
+Remove all stopped containers 
 ```
 docker rm $(docker ps --no-trunc -aq)
-´´´
+```
 
 ### TENSOR-FLOW
 
