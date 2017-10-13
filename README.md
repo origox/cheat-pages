@@ -7,6 +7,13 @@
 
 ![Image](https://docs.docker.com/engine/article-img/architecture.svg)
 
+### Commands
+
+Remove all stopped containers
+```
+docker rm $(docker ps --no-trunc -aq)
+´´´
+
 ### TENSOR-FLOW
 
 ### AWS
